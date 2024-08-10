@@ -38,9 +38,9 @@ const About = () => {
                         <p className='my-2 max-w-xl py-20'>{ABOUT_TEXT}</p>
                     </div>
                     <a
-                        href="/src/CV.pdf"  // Ensure this path is correct
-                        download="CV.pdf"  // Suggests the downloaded filename
-                        className="relative inline-block px-5 py-3 rounded-xl border border-gray-300 font-semibold text-gray-700 overflow-hidden group transition-transform transform-gpu hover:scale-105 mt-0" // Adjust margin-top here
+                        href="/CV.pdf"  // This assumes CV.pdf is in the public directory
+                        download="CV.pdf"
+                        className="relative inline-block px-5 py-3 rounded-xl border border-gray-300 font-semibold text-gray-700 overflow-hidden group transition-transform transform-gpu hover:scale-105 mt-0"
                     >
                         <span className="absolute inset-0 bg-gradient-to-r from-gray-200 to-gray-300 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-in-out"></span>
                         <span className="relative z-10 flex items-center space-x-3">
